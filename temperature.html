@@ -1,0 +1,16 @@
+<!Doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+h2{display:inline;}
+input{text-align:cener;}
+</style>
+</head>
+<body align="center">
+<h2>temperature convertor</h2><br>
+<input type="text" id="celsius" oninput="fahrenheit.value=celsius.value*9/5+32" placeholder="celisus">
+<h2>=</h2>
+<input type="text" id="fahrenheit" oninput="celsius.value=(fahrenheit.value-32)*5/9" placeholder="fahrenheit">
+</body>
+</html>
